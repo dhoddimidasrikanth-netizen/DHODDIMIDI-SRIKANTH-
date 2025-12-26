@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DHODDIMIDI SRIKANTH personal website. B.Tech student at MREM College.">
+    <meta name="keywords" content="DHODDIMIDI SRIKANTH, Srikanth, MREM College, Personal Website">
+    <meta name="author" content="DHODDIMIDI SRIKANTH">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DHODDIMIDI SRIKANTH | Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .section-title {
+            font-size: 22px;
+            margin-top: 20px;
+            color: #004aad;
+            font-weight: bold;
+        }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #004aad;
+            display: block;
+            margin: 20px auto;
+        }
+        .info-box {
+            background: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>DHODDIMIDI SRIKANTH</h1>
+        <p>B.Tech Student | Personal Profile</p>
+    </div>
+
+    <div class="container">
+
+        <!-- Profile Photo -->
+        <img src="photo.jpg" class="profile-img" alt="DHODDIMIDI SRIKANTH Photo">
+
+        <!-- About Me -->
+        <h2 class="section-title">About Me</h2>
+        <p class="info-box">
+            I’m DHODDIMIDI SRIKANTH, a hardworking and motivated B.Tech student at MREM College.
+            I enjoy learning new technologies and improving my skills every day.
+        </p>
+
+        <!-- Education -->
+        <h2 class="section-title">Education</h2>
+        <div class="info-box">
+            <p><strong>B.Tech:</strong> 3rd Year – MREM College</p>
+            <p><strong>Intermediate (MPC):</strong> Yedapally @ Bodhan (BC Welfare)</p>
+            <p><strong>10th Class:</strong> Yedapally @ Bodhan (BC Welfare)</p>
+        </div>
+
+        <!-- Skills -->
+        <h2 class="section-title">Skills & Interests</h2>
+        <div class="info-box">
+            <ul>
+                <li>Sports – Kabaddi, Cricket</li>
+                <li>Gaming</li>
+                <li>Travelling</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
